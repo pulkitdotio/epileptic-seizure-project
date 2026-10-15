@@ -1,0 +1,116 @@
+﻿# Python bytecode, caches and installation/build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+/build/
+/dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit*.xml
+
+# Virtual environments (keep dependency manifests in Git)
+.venv/
+venv/
+env/
+.env/
+
+# Secrets and local credentials (example configuration may be committed)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+**/.streamlit/secrets.toml
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local editor, OS and agent state
+.vscode/
+.idea/
+.serena/
+.codex/
+.agents/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+
+# Downloaded recordings and derived datasets: preserve locally, never upload
+/data/
+/src/data/
+*.edf
+*.EDF
+*.bdf
+*.BDF
+*.gdf
+*.npy
+*.npz
+*.mmap
+*.memmap
+
+# Trained weights and generated run directories
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+/outputs/
+/checkpoints/
+/src/results/
+/results/EDA/
+
+# Per-window generated tables; keep small configs, metrics and training histories
+/results/**/window_index_*.csv
+/results/**/training_windows_used.csv
+/results/**/test_predictions.csv
+/results/**/validation_predictions.csv
+/results/**/validation_threshold_curve.csv
+/results/**/*recheck.csv
+
+# Temporary UI verification output and duplicate source snapshots
+/reports/frontend_polish/before_code/
+/reports/frontend_polish/qa_exports/
+/reports/frontend_polish/qa_target.json
+/reports/frontend_polish/tests.xml
+
+# Optional upstream reference downloads and course submission material
+# Kept locally; these are not needed to install or run the application.
+/doc/
+/presentation/
+/research_paper/
+/reports/Latex_report/
+/reports/Markdown_Report/
+/reports/Word_Report/
+/reports/Progress_Report/
+/demo/assets/Demo.mp4.zip
+
+# Logs and temporary/incomplete downloads
+*.log
+logs/
+*.tmp
+*.temp
+*.part
+*.partial
+
+# Existing local-only report tools and scratch work
+/generate_changes_pdf.py
+/generate_final_report.py
+/generate_model_status_report.py
+/CHECKPOINT_VALIDATION_REPORT.md
+/MODEL_STATUS_REPORT_APR23_2026.pdf
+/src/debug_session_log.txt
+/wiki/
+/stress_test.py
+/Capstone/.obsidian/
+/docs/superpowers/

@@ -1,0 +1,13 @@
+{
+  "mode": "real inference only; no new training",
+  "recording": "chb01_03.edf",
+  "experiment_split": "train",
+  "first_window": 747,
+  "windows": 30,
+  "annotated_seizure_windows": 10,
+  "predicted_seizure_windows": 0,
+  "threshold": 0.5,
+  "min_score": 0.24425427615642548,
+  "max_score": 0.48971208930015564,
+  "checkpoint_sha256": "4ad53ff2dac951a33f524f6d9969b921641edcea9936a5bc60f61da98648bdf1"
+}

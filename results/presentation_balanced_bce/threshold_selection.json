@@ -1,0 +1,10 @@
+{
+  "method": "exact validation F1; ties: fewer FP, higher threshold",
+  "validation_fpr_cap": 0.05,
+  "threshold": 0.5674257874488831,
+  "validation_f1": 0.34285714285714286,
+  "validation_recall": 0.20689655172413793,
+  "validation_precision": 1.0,
+  "validation_false_positives": 0,
+  "validation_false_positive_rate": 0.0
+}

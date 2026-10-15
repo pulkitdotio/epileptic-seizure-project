@@ -1,0 +1,30 @@
+{
+  "mode": "preflight only; no checkpoint saved",
+  "independent_patients": 1,
+  "split_patients": {
+    "train": [
+      "chb01"
+    ],
+    "val": [],
+    "test": []
+  },
+  "split_windows": {
+    "train": 900,
+    "val": 0,
+    "test": 0
+  },
+  "train_windows_used": 410,
+  "batch_shape": [
+    16,
+    8,
+    1024
+  ],
+  "input_batch_mib": 0.5,
+  "model_parameters": 41250,
+  "bounded_read_seconds": 0.1052361000329256,
+  "one_training_step_seconds": 0.06073089991696179,
+  "rough_run_minutes": 0.3595951665580894,
+  "limitation": "Single-batch timing estimate, not a runtime guarantee; test inference and file hashing add time.",
+  "scope": "One bounded CHB-MIT batch benchmark only. No model weights saved, no evaluation, not the proposed multi-patient training run.",
+  "source": "chb01/chb01_03.edf"
+}

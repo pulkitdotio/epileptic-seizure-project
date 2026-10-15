@@ -1,0 +1,106 @@
+{
+  "original": {
+    "scope": "patient-held-out",
+    "accuracy": 0.9761111111111112,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "confusion_matrix": [
+      [
+        1757,
+        0
+      ],
+      [
+        43,
+        0
+      ]
+    ],
+    "roc_auc": 0.825482124657516,
+    "pr_auc": 0.1588139492094824,
+    "n_windows": 1800,
+    "positive_windows": 43,
+    "threshold": 0.5
+  },
+  "balanced_bce": {
+    "scope": "patient-held-out",
+    "accuracy": 0.9761111111111112,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "confusion_matrix": [
+      [
+        1757,
+        0
+      ],
+      [
+        43,
+        0
+      ]
+    ],
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 1757,
+    "false_negatives": 43,
+    "false_positive_rate": 0.0,
+    "roc_auc": 0.6678932112083229,
+    "pr_auc": 0.06473069611510573,
+    "n_windows": 1800,
+    "positive_windows": 43,
+    "threshold": 0.5674257874488831
+  },
+  "validation": {
+    "accuracy": 0.9872364039955605,
+    "precision": 1.0,
+    "recall": 0.20689655172413793,
+    "f1": 0.34285714285714286,
+    "sensitivity": 0.20689655172413793,
+    "specificity": 1.0,
+    "confusion_matrix": [
+      [
+        1773,
+        0
+      ],
+      [
+        23,
+        6
+      ]
+    ],
+    "true_positives": 6,
+    "false_positives": 0,
+    "true_negatives": 1773,
+    "false_negatives": 23,
+    "false_positive_rate": 0.0,
+    "roc_auc": 0.5501876811171402,
+    "pr_auc": 0.24638855700513054,
+    "n_windows": 1802,
+    "positive_windows": 29,
+    "threshold": 0.5674257874488831
+  },
+  "selection": {
+    "method": "exact validation F1; ties: fewer FP, higher threshold",
+    "validation_fpr_cap": 0.05,
+    "threshold": 0.5674257874488831,
+    "validation_f1": 0.34285714285714286,
+    "validation_recall": 0.20689655172413793,
+    "validation_precision": 1.0,
+    "validation_false_positives": 0,
+    "validation_false_positive_rate": 0.0
+  },
+  "epochs_completed": 3,
+  "selected_epoch": 1,
+  "timing": {
+    "exit_code": 0,
+    "wall_seconds": 95.0001875,
+    "approved_training_inference_limit_seconds": 300
+  },
+  "same_test_windows_labels_and_content_hashes": true,
+  "original_checkpoint_sha256": "4ad53ff2dac951a33f524f6d9969b921641edcea9936a5bc60f61da98648bdf1",
+  "candidate_checkpoint_sha256": "fe2b8aecf2fd0b052ee5e925db8a3f1794b81e219e7d372d004983b88239af9a",
+  "dashboard_default_changed": false,
+  "decision": "Do not promote: threshold-based detection is unchanged at zero recall and test ROC-AUC/AP declined.",
+  "limitations": "Exploratory comparison on one already-examined test patient/event; not a fresh blinded test."
+}

@@ -1,0 +1,24 @@
+{
+  "scope": "patient-held-out",
+  "accuracy": 0.9761111111111112,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "sensitivity": 0.0,
+  "specificity": 1.0,
+  "confusion_matrix": [
+    [
+      1757,
+      0
+    ],
+    [
+      43,
+      0
+    ]
+  ],
+  "roc_auc": 0.825482124657516,
+  "pr_auc": 0.1588139492094824,
+  "n_windows": 1800,
+  "positive_windows": 43,
+  "threshold": 0.5
+}

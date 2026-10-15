@@ -1,0 +1,39 @@
+[theme]
+base = "dark"
+primaryColor = "#58B8AE"
+backgroundColor = "#0B0F14"
+secondaryBackgroundColor = "#151B23"
+textColor = "#E8EDF3"
+font = "Inter, Segoe UI, sans-serif"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["1.85rem", "1.35rem", "1.2rem", "1.1rem", "1rem", "1rem"]
+headingFontWeights = [550, 550, 550, 550, 500, 500]
+metricValueFontSize = "1.6rem"
+metricValueFontWeight = 500
+baseRadius = "0.5rem"
+buttonRadius = "0.4rem"
+borderColor = "#29323D"
+dataframeHeaderBackgroundColor = "#1B222C"
+dataframeHeaderTextColor = "#E8EDF3"
+showWidgetBorder = true
+showSidebarBorder = true
+yellowColor = "#E2B36B"
+yellowBackgroundColor = "#251F17"
+yellowTextColor = "#E2B36B"
+redColor = "#E47878"
+redBackgroundColor = "#291D21"
+redTextColor = "#E47878"
+greenColor = "#65B99A"
+blueColor = "#97A3B3"
+blueBackgroundColor = "#151B23"
+blueTextColor = "#E8EDF3"
+
+[theme.sidebar]
+backgroundColor = "#10151C"
+secondaryBackgroundColor = "#151B23"
+headingFontSizes = ["1.25rem", "1.1rem", "1rem", "1rem", "1rem", "1rem"]
+headingFontWeights = [550, 550, 500, 500, 500, 500]
+
+[browser]
+gatherUsageStats = false

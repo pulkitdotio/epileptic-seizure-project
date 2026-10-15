@@ -1,0 +1,187 @@
+{
+  "patient_groups": {
+    "train": [
+      "chb01",
+      "chb03"
+    ],
+    "val": [
+      "chb05"
+    ],
+    "test": [
+      "chb08"
+    ]
+  },
+  "matching_model_input_contract": {
+    "channels": [
+      "FP1-F7",
+      "F7-T7",
+      "T7-P7",
+      "P7-O1",
+      "FP2-F4",
+      "F4-C4",
+      "C4-P4",
+      "P4-O2"
+    ],
+    "window_sec": 4.0,
+    "preprocessing": {
+      "sfreq": 256.0,
+      "low_hz": 1.0,
+      "high_hz": 40.0,
+      "normalization": "zscore",
+      "order": 4,
+      "context_sec": 2.0
+    }
+  },
+  "records": [
+    {
+      "relative_path": "chb01/chb01_01.edf",
+      "patient": "chb01",
+      "edf_sha256": "92ec026f633dca94ee74c2e2b67cf9d58aa50da700b650a1696cf497dac073e3",
+      "summary_sha256": "77e86183845192d147c88a9bb4263c2b4a32e936c6236029770f86ca2ea023db",
+      "split": "train",
+      "sampling_frequency": 256.0,
+      "duration_sec": 3600.0,
+      "events": [],
+      "hashes_verified": true,
+      "window_indexes_verified": true
+    },
+    {
+      "relative_path": "chb01/chb01_03.edf",
+      "patient": "chb01",
+      "edf_sha256": "4c4a95a9b4331aeaadadd538763eb2e735950d9aa615b85ee6246c784be8ae90",
+      "summary_sha256": "77e86183845192d147c88a9bb4263c2b4a32e936c6236029770f86ca2ea023db",
+      "split": "train",
+      "sampling_frequency": 256.0,
+      "duration_sec": 3600.0,
+      "events": [
+        [
+          2996.0,
+          3036.0
+        ]
+      ],
+      "hashes_verified": true,
+      "window_indexes_verified": true
+    },
+    {
+      "relative_path": "chb01/chb01_04.edf",
+      "patient": "chb01",
+      "edf_sha256": "d91d190b2362697fe2cdef922a593baabadcb12fde437bd8d50c01b084ca9030",
+      "summary_sha256": "77e86183845192d147c88a9bb4263c2b4a32e936c6236029770f86ca2ea023db",
+      "split": "train",
+      "sampling_frequency": 256.0,
+      "duration_sec": 3600.0,
+      "events": [
+        [
+          1467.0,
+          1494.0
+        ]
+      ],
+      "hashes_verified": true,
+      "window_indexes_verified": true
+    },
+    {
+      "relative_path": "chb03/chb03_01.edf",
+      "patient": "chb03",
+      "edf_sha256": "74f1ebc1334c4d52a132513c8ecab03d15d5b8ecbd91c7fdc71346bf69797d02",
+      "summary_sha256": "8d74eb131a96959c7b2aec82215d232dc26c3012c4d98c2a1c5f5dac520f52b4",
+      "split": "train",
+      "sampling_frequency": 256.0,
+      "duration_sec": 3600.0,
+      "events": [
+        [
+          362.0,
+          414.0
+        ]
+      ],
+      "hashes_verified": true,
+      "window_indexes_verified": true
+    },
+    {
+      "relative_path": "chb03/chb03_02.edf",
+      "patient": "chb03",
+      "edf_sha256": "de8bdcd1f1edd0da5b56d97056ddee16b95d98f6a9ee1d5759342f3cae6b8d22",
+      "summary_sha256": "8d74eb131a96959c7b2aec82215d232dc26c3012c4d98c2a1c5f5dac520f52b4",
+      "split": "train",
+      "sampling_frequency": 256.0,
+      "duration_sec": 3600.0,
+      "events": [
+        [
+          731.0,
+          796.0
+        ]
+      ],
+      "hashes_verified": true,
+      "window_indexes_verified": true
+    },
+    {
+      "relative_path": "chb03/chb03_05.edf",
+      "patient": "chb03",
+      "edf_sha256": "6e400cf6457c5045d5783b188b9dd4362e267967f74d356f4f43923ccd7248ec",
+      "summary_sha256": "8d74eb131a96959c7b2aec82215d232dc26c3012c4d98c2a1c5f5dac520f52b4",
+      "split": "train",
+      "sampling_frequency": 256.0,
+      "duration_sec": 3600.0,
+      "events": [],
+      "hashes_verified": true,
+      "window_indexes_verified": true
+    },
+    {
+      "relative_path": "chb05/chb05_01.edf",
+      "patient": "chb05",
+      "edf_sha256": "8840c7d7b32becffdc2ae35eff4c6e222bf15a23c28b0367005e9ece355daf4c",
+      "summary_sha256": "6f8c1724c71aaee20523d138129c4f4366ed1f9bb7f220b146fc503661b6a3b4",
+      "split": "val",
+      "sampling_frequency": 256.0,
+      "duration_sec": 3610.0,
+      "events": [],
+      "hashes_verified": true,
+      "window_indexes_verified": true
+    },
+    {
+      "relative_path": "chb05/chb05_06.edf",
+      "patient": "chb05",
+      "edf_sha256": "8a15d8871289ff5947136c2bbd4482af9a9ac30d402efd3357993b064e86a2fd",
+      "summary_sha256": "6f8c1724c71aaee20523d138129c4f4366ed1f9bb7f220b146fc503661b6a3b4",
+      "split": "val",
+      "sampling_frequency": 256.0,
+      "duration_sec": 3600.0,
+      "events": [
+        [
+          417.0,
+          532.0
+        ]
+      ],
+      "hashes_verified": true,
+      "window_indexes_verified": true
+    },
+    {
+      "relative_path": "chb08/chb08_02.edf",
+      "patient": "chb08",
+      "edf_sha256": "f01c6435d6eed409cd25d3a590ee4d69b6c778adb48b9a7b50eae887ed50c9c7",
+      "summary_sha256": "d409ff3a74cb0b85310bd2f4428110e991d9e70969cf4ae8cc41de1671a3bd10",
+      "split": "test",
+      "sampling_frequency": 256.0,
+      "duration_sec": 3600.0,
+      "events": [
+        [
+          2670.0,
+          2841.0
+        ]
+      ],
+      "hashes_verified": true,
+      "window_indexes_verified": true
+    },
+    {
+      "relative_path": "chb08/chb08_03.edf",
+      "patient": "chb08",
+      "edf_sha256": "b8301e9e3f3cdf4b87547f8a08c0ac8650f52f79cf54d0434074a44ac09293fa",
+      "summary_sha256": "d409ff3a74cb0b85310bd2f4428110e991d9e70969cf4ae8cc41de1671a3bd10",
+      "split": "test",
+      "sampling_frequency": 256.0,
+      "duration_sec": 3600.0,
+      "events": [],
+      "hashes_verified": true,
+      "window_indexes_verified": true
+    }
+  ]
+}

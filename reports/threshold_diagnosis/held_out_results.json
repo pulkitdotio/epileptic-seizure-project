@@ -1,0 +1,367 @@
+{
+  "status": "Previously examined test patients: exploratory, not untouched confirmatory data",
+  "validation_freeze_sha256": "34a2637aec88604014bd1de0bfa652e6913817c549c169b098ecbf7c7ef100d0",
+  "exploratory_freeze_sha256": "f7bb3be1e6522538f13ab61d89c9d89b42834dbadc7b38a936a270f80f0acd43",
+  "no_test_threshold_sweep": true,
+  "models": {
+    "original": {
+      "test_predictions_sha256": "b55a1c1e1461aff4c685f253d788410434bee0e51851d58f002f74b364d83fe6",
+      "policies": {
+        "saved": {
+          "accuracy": 0.9761111111111112,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "sensitivity": 0.0,
+          "specificity": 1.0,
+          "confusion_matrix": [
+            [
+              1757,
+              0
+            ],
+            [
+              43,
+              0
+            ]
+          ],
+          "true_positives": 0,
+          "false_positives": 0,
+          "true_negatives": 1757,
+          "false_negatives": 43,
+          "false_positive_rate": 0.0,
+          "roc_auc": 0.825482124657516,
+          "pr_auc": 0.1588139492094824,
+          "n_windows": 1800,
+          "positive_windows": 43,
+          "threshold": 0.5,
+          "covered_hours": 2.0,
+          "nonseizure_hours": 1.9525,
+          "labelled_background_hours": 1.9522222222222223,
+          "false_positive_windows_per_labelled_background_hour": 0.0,
+          "alarm_episodes": 0,
+          "pure_false_alarm_episodes": 0,
+          "false_alarm_episodes_per_nonseizure_hour": 0.0,
+          "background_alert_seconds": 0.0,
+          "background_alert_seconds_per_nonseizure_hour": 0.0,
+          "events_detected": 0,
+          "events_total": 1,
+          "event_sensitivity": 0.0
+        },
+        "recall_guarded": {
+          "accuracy": 0.9761111111111112,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "sensitivity": 0.0,
+          "specificity": 1.0,
+          "confusion_matrix": [
+            [
+              1757,
+              0
+            ],
+            [
+              43,
+              0
+            ]
+          ],
+          "true_positives": 0,
+          "false_positives": 0,
+          "true_negatives": 1757,
+          "false_negatives": 43,
+          "false_positive_rate": 0.0,
+          "roc_auc": 0.825482124657516,
+          "pr_auc": 0.1588139492094824,
+          "n_windows": 1800,
+          "positive_windows": 43,
+          "threshold": 0.5302148461341858,
+          "covered_hours": 2.0,
+          "nonseizure_hours": 1.9525,
+          "labelled_background_hours": 1.9522222222222223,
+          "false_positive_windows_per_labelled_background_hour": 0.0,
+          "alarm_episodes": 0,
+          "pure_false_alarm_episodes": 0,
+          "false_alarm_episodes_per_nonseizure_hour": 0.0,
+          "background_alert_seconds": 0.0,
+          "background_alert_seconds_per_nonseizure_hour": 0.0,
+          "events_detected": 0,
+          "events_total": 1,
+          "event_sensitivity": 0.0
+        },
+        "recall_cap_half_percent": {
+          "accuracy": 0.9761111111111112,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "sensitivity": 0.0,
+          "specificity": 1.0,
+          "confusion_matrix": [
+            [
+              1757,
+              0
+            ],
+            [
+              43,
+              0
+            ]
+          ],
+          "true_positives": 0,
+          "false_positives": 0,
+          "true_negatives": 1757,
+          "false_negatives": 43,
+          "false_positive_rate": 0.0,
+          "roc_auc": 0.825482124657516,
+          "pr_auc": 0.1588139492094824,
+          "n_windows": 1800,
+          "positive_windows": 43,
+          "threshold": 0.5302148461341858,
+          "covered_hours": 2.0,
+          "nonseizure_hours": 1.9525,
+          "labelled_background_hours": 1.9522222222222223,
+          "false_positive_windows_per_labelled_background_hour": 0.0,
+          "alarm_episodes": 0,
+          "pure_false_alarm_episodes": 0,
+          "false_alarm_episodes_per_nonseizure_hour": 0.0,
+          "background_alert_seconds": 0.0,
+          "background_alert_seconds_per_nonseizure_hour": 0.0,
+          "events_detected": 0,
+          "events_total": 1,
+          "event_sensitivity": 0.0
+        },
+        "recall_cap_5percent": {
+          "accuracy": 0.9755555555555555,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "sensitivity": 0.0,
+          "specificity": 0.9994308480364257,
+          "confusion_matrix": [
+            [
+              1756,
+              1
+            ],
+            [
+              43,
+              0
+            ]
+          ],
+          "true_positives": 0,
+          "false_positives": 1,
+          "true_negatives": 1756,
+          "false_negatives": 43,
+          "false_positive_rate": 0.0005691519635742744,
+          "roc_auc": 0.825482124657516,
+          "pr_auc": 0.1588139492094824,
+          "n_windows": 1800,
+          "positive_windows": 43,
+          "threshold": 0.4890788793563843,
+          "covered_hours": 2.0,
+          "nonseizure_hours": 1.9525,
+          "labelled_background_hours": 1.9522222222222223,
+          "false_positive_windows_per_labelled_background_hour": 0.5122367672168469,
+          "alarm_episodes": 1,
+          "pure_false_alarm_episodes": 1,
+          "false_alarm_episodes_per_nonseizure_hour": 0.5121638924455826,
+          "background_alert_seconds": 4.0,
+          "background_alert_seconds_per_nonseizure_hour": 2.0486555697823303,
+          "events_detected": 0,
+          "events_total": 1,
+          "event_sensitivity": 0.0
+        }
+      },
+      "unique_thresholds_evaluated_once": [
+        0.4890788793563843,
+        0.5,
+        0.5302148461341858
+      ],
+      "test_seizure_score_max": 0.4767111539840698,
+      "test_background_score_max": 0.4907812476158142
+    },
+    "balanced_bce": {
+      "test_predictions_sha256": "a71afe0532e2b5ac3669cc41d7d723b1181ed9834f15e70cea1263c6045ed494",
+      "policies": {
+        "saved": {
+          "accuracy": 0.9761111111111112,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "sensitivity": 0.0,
+          "specificity": 1.0,
+          "confusion_matrix": [
+            [
+              1757,
+              0
+            ],
+            [
+              43,
+              0
+            ]
+          ],
+          "true_positives": 0,
+          "false_positives": 0,
+          "true_negatives": 1757,
+          "false_negatives": 43,
+          "false_positive_rate": 0.0,
+          "roc_auc": 0.6678932112083229,
+          "pr_auc": 0.06473069611510573,
+          "n_windows": 1800,
+          "positive_windows": 43,
+          "threshold": 0.5674257874488831,
+          "covered_hours": 2.0,
+          "nonseizure_hours": 1.9525,
+          "labelled_background_hours": 1.9522222222222223,
+          "false_positive_windows_per_labelled_background_hour": 0.0,
+          "alarm_episodes": 0,
+          "pure_false_alarm_episodes": 0,
+          "false_alarm_episodes_per_nonseizure_hour": 0.0,
+          "background_alert_seconds": 0.0,
+          "background_alert_seconds_per_nonseizure_hour": 0.0,
+          "events_detected": 0,
+          "events_total": 1,
+          "event_sensitivity": 0.0
+        },
+        "recall_guarded": {
+          "accuracy": 0.9761111111111112,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "sensitivity": 0.0,
+          "specificity": 1.0,
+          "confusion_matrix": [
+            [
+              1757,
+              0
+            ],
+            [
+              43,
+              0
+            ]
+          ],
+          "true_positives": 0,
+          "false_positives": 0,
+          "true_negatives": 1757,
+          "false_negatives": 43,
+          "false_positive_rate": 0.0,
+          "roc_auc": 0.6678932112083229,
+          "pr_auc": 0.06473069611510573,
+          "n_windows": 1800,
+          "positive_windows": 43,
+          "threshold": 0.5674257874488831,
+          "covered_hours": 2.0,
+          "nonseizure_hours": 1.9525,
+          "labelled_background_hours": 1.9522222222222223,
+          "false_positive_windows_per_labelled_background_hour": 0.0,
+          "alarm_episodes": 0,
+          "pure_false_alarm_episodes": 0,
+          "false_alarm_episodes_per_nonseizure_hour": 0.0,
+          "background_alert_seconds": 0.0,
+          "background_alert_seconds_per_nonseizure_hour": 0.0,
+          "events_detected": 0,
+          "events_total": 1,
+          "event_sensitivity": 0.0
+        },
+        "recall_cap_half_percent": {
+          "accuracy": 0.9755555555555555,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "sensitivity": 0.0,
+          "specificity": 0.9994308480364257,
+          "confusion_matrix": [
+            [
+              1756,
+              1
+            ],
+            [
+              43,
+              0
+            ]
+          ],
+          "true_positives": 0,
+          "false_positives": 1,
+          "true_negatives": 1756,
+          "false_negatives": 43,
+          "false_positive_rate": 0.0005691519635742744,
+          "roc_auc": 0.6678932112083229,
+          "pr_auc": 0.06473069611510573,
+          "n_windows": 1800,
+          "positive_windows": 43,
+          "threshold": 0.5304762721061707,
+          "covered_hours": 2.0,
+          "nonseizure_hours": 1.9525,
+          "labelled_background_hours": 1.9522222222222223,
+          "false_positive_windows_per_labelled_background_hour": 0.5122367672168469,
+          "alarm_episodes": 1,
+          "pure_false_alarm_episodes": 1,
+          "false_alarm_episodes_per_nonseizure_hour": 0.5121638924455826,
+          "background_alert_seconds": 4.0,
+          "background_alert_seconds_per_nonseizure_hour": 2.0486555697823303,
+          "events_detected": 0,
+          "events_total": 1,
+          "event_sensitivity": 0.0
+        },
+        "recall_cap_5percent": {
+          "accuracy": 0.975,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "sensitivity": 0.0,
+          "specificity": 0.9988616960728515,
+          "confusion_matrix": [
+            [
+              1755,
+              2
+            ],
+            [
+              43,
+              0
+            ]
+          ],
+          "true_positives": 0,
+          "false_positives": 2,
+          "true_negatives": 1755,
+          "false_negatives": 43,
+          "false_positive_rate": 0.0011383039271485487,
+          "roc_auc": 0.6678932112083229,
+          "pr_auc": 0.06473069611510573,
+          "n_windows": 1800,
+          "positive_windows": 43,
+          "threshold": 0.4868733584880829,
+          "covered_hours": 2.0,
+          "nonseizure_hours": 1.9525,
+          "labelled_background_hours": 1.9522222222222223,
+          "false_positive_windows_per_labelled_background_hour": 1.0244735344336937,
+          "alarm_episodes": 2,
+          "pure_false_alarm_episodes": 2,
+          "false_alarm_episodes_per_nonseizure_hour": 1.0243277848911652,
+          "background_alert_seconds": 8.0,
+          "background_alert_seconds_per_nonseizure_hour": 4.097311139564661,
+          "events_detected": 0,
+          "events_total": 1,
+          "event_sensitivity": 0.0
+        }
+      },
+      "unique_thresholds_evaluated_once": [
+        0.4868733584880829,
+        0.5304762721061707,
+        0.5674257874488831
+      ],
+      "test_seizure_score_max": 0.46600279211997986,
+      "test_background_score_max": 0.5362260341644287
+    }
+  },
+  "protected_hashes_after": {
+    "results/presentation_baseline/baseline.pt": "4ad53ff2dac951a33f524f6d9969b921641edcea9936a5bc60f61da98648bdf1",
+    "results/presentation_balanced_bce/baseline.pt": "fe2b8aecf2fd0b052ee5e925db8a3f1794b81e219e7d372d004983b88239af9a",
+    "demo/__init__.py": "ec7549fb93966ebb955623580313ea7c5a23ae8d525dd8c3a9db75c53bf6cc55",
+    "demo/analysis_panel.py": "7c68a85b5c9c00a8d3b135ac3111bc42c4c560404921ad3377ab4a05447b6504",
+    "demo/app.py": "ed6d213080ad8d932a353889465f5bcf9a540760d2f0369460e9251f53a94788",
+    "demo/dashboard.py": "dcbefdb3f4fa15ecf2813086a8678143941e8f4f4c51217d308b9a5f513722ab",
+    "demo/export_test_window.py": "8bc0b00d7dfe11d0b932b97c4726b294cbca1176a39b249b5b24f1358181075c",
+    "demo/model_panel.py": "9aec9c994dc2f668dfec6e8cf219d8a6241baf8e564a58d4f1d29605820b0cb3",
+    "demo/plots.py": "97dd6a9ef0a41a64a0edcb0f84742f52aa4b0aebd13ec7257bd6fcb17d1d17d6",
+    "demo/presentation_app.py": "fdfedeece06c084f79dc6e6447f4adb9a22b63806054c9571f60ae6a96dec048",
+    "demo/security.py": "6c603bd2e90eb7f680fe0d02b3c94936baa25df529daa2dfca5082f5c4a8732e",
+    "demo/ui.py": "c962affb09707a1b96ee30549bfec9e6fba6481f3d4d12c3c695d79fe69aad90",
+    ".streamlit/config.toml": "56f5a333f6158f50e394b1146f56ba37de31dc47216d9f9690641828fbd6b56d"
+  }
+}

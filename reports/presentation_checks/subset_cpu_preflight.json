@@ -1,0 +1,33 @@
+{
+  "mode": "preflight only; no checkpoint saved",
+  "independent_patients": 4,
+  "split_patients": {
+    "train": [
+      "chb01",
+      "chb03"
+    ],
+    "val": [
+      "chb05"
+    ],
+    "test": [
+      "chb08"
+    ]
+  },
+  "split_windows": {
+    "train": 5400,
+    "val": 1802,
+    "test": 1800
+  },
+  "train_windows_used": 2447,
+  "batch_shape": [
+    16,
+    8,
+    1024
+  ],
+  "input_batch_mib": 0.5,
+  "model_parameters": 41250,
+  "bounded_read_seconds": 0.11557259992696345,
+  "one_training_step_seconds": 0.06467660004273057,
+  "rough_run_minutes": 3.9955239326615506,
+  "limitation": "Single-batch timing estimate, not a runtime guarantee; test inference and file hashing add time."
+}

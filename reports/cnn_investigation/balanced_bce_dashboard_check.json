@@ -1,0 +1,18 @@
+{
+  "mode": "AppTest only; no real browser session or dashboard default changed",
+  "new_checkpoint_loads": true,
+  "new_checkpoint_ai_panel_no_errors": true,
+  "new_checkpoint_evaluation_panel_no_errors": true,
+  "saved_threshold_used_without_override": 0.5674257874488831,
+  "original_default_checkpoint_preserved": true,
+  "rendered_metrics": {
+    "Accuracy": "0.976",
+    "Precision": "0.000",
+    "Recall": "0.000",
+    "F1-score": "0.000",
+    "Sensitivity": "0.000",
+    "Specificity": "1.000",
+    "ROC-AUC": "0.668",
+    "PR-AUC (AP)": "0.065"
+  }
+}

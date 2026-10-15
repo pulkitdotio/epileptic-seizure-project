@@ -1,0 +1,270 @@
+[
+  {
+    "width": 1366,
+    "height": 768,
+    "section": "Overview",
+    "heading": "Overview",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [],
+    "contentHeight": 768
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "section": "Raw EEG",
+    "heading": "Raw EEG",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [
+      {
+        "loaded": true,
+        "width": 954
+      }
+    ],
+    "contentHeight": 906
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "section": "Preprocessing",
+    "heading": "Preprocessing",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [
+      {
+        "loaded": true,
+        "width": 470
+      },
+      {
+        "loaded": true,
+        "width": 470
+      }
+    ],
+    "contentHeight": 1116
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "section": "Seizure Annotations",
+    "heading": "Seizure Annotations",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [
+      {
+        "loaded": true,
+        "width": 954
+      }
+    ],
+    "contentHeight": 1220
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "section": "Segmentation",
+    "heading": "Segmentation",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [
+      {
+        "loaded": true,
+        "width": 954
+      }
+    ],
+    "contentHeight": 1080
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "section": "AI Detection",
+    "heading": "AI Detection",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [
+      {
+        "loaded": true,
+        "width": 954
+      }
+    ],
+    "contentHeight": 1208
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "section": "Training & Evaluation",
+    "heading": "Training & Evaluation",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [
+      {
+        "loaded": true,
+        "width": 565
+      },
+      {
+        "loaded": true,
+        "width": 455
+      },
+      {
+        "loaded": true,
+        "width": 455
+      },
+      {
+        "loaded": true,
+        "width": 924
+      }
+    ],
+    "contentHeight": 997
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "section": "Early Prediction",
+    "heading": "Early Prediction",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [],
+    "contentHeight": 768
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "section": "Overview",
+    "heading": "Overview",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [],
+    "contentHeight": 1080
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "section": "Raw EEG",
+    "heading": "Raw EEG",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1300
+      }
+    ],
+    "contentHeight": 1080
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "section": "Preprocessing",
+    "heading": "Preprocessing",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [
+      {
+        "loaded": true,
+        "width": 643
+      },
+      {
+        "loaded": true,
+        "width": 643
+      }
+    ],
+    "contentHeight": 1222
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "section": "Seizure Annotations",
+    "heading": "Seizure Annotations",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1300
+      }
+    ],
+    "contentHeight": 1316
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "section": "Segmentation",
+    "heading": "Segmentation",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1300
+      }
+    ],
+    "contentHeight": 1176
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "section": "AI Detection",
+    "heading": "AI Detection",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1300
+      }
+    ],
+    "contentHeight": 1304
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "section": "Training & Evaluation",
+    "heading": "Training & Evaluation",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [
+      {
+        "loaded": true,
+        "width": 773
+      },
+      {
+        "loaded": true,
+        "width": 628
+      },
+      {
+        "loaded": true,
+        "width": 628
+      },
+      {
+        "loaded": true,
+        "width": 1270
+      }
+    ],
+    "contentHeight": 1093
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "section": "Early Prediction",
+    "heading": "Early Prediction",
+    "errors": [],
+    "overflow": false,
+    "headerTop": 77,
+    "images": [],
+    "contentHeight": 1080
+  }
+]

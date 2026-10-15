@@ -1,0 +1,11 @@
+# Versions verified in the existing Windows/Python 3.11 environment.
+# Install CPU torch separately using the official PyTorch index (see README).
+numpy==1.26.4
+scipy==1.14.1
+mne==1.9.0
+streamlit==1.65.0
+matplotlib==3.11.2
+pandas==2.3.3
+scikit-learn==1.9.1
+pytest==9.1.1
+pyyaml==6.0.3

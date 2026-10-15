@@ -1,0 +1,15 @@
+{
+  "validation_freeze_sha256": "34a2637aec88604014bd1de0bfa652e6913817c549c169b098ecbf7c7ef100d0",
+  "intent": "Finite validation-only sensitivity/cost diagnostics; not recommendations or deployment changes",
+  "rules": "Maximum validation recall under 0.5% or 5% window FPR; ties highest F1, fewer FP, higher threshold. No test input.",
+  "models": {
+    "original": {
+      "recall_cap_half_percent": 0.5302148461341858,
+      "recall_cap_5percent": 0.4890788793563843
+    },
+    "balanced_bce": {
+      "recall_cap_half_percent": 0.5304762721061707,
+      "recall_cap_5percent": 0.4868733584880829
+    }
+  }
+}

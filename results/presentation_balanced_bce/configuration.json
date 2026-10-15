@@ -1,0 +1,149 @@
+{
+  "channels": [
+    "FP1-F7",
+    "F7-T7",
+    "T7-P7",
+    "P7-O1",
+    "FP2-F4",
+    "F4-C4",
+    "C4-P4",
+    "P4-O2"
+  ],
+  "window_sec": 4.0,
+  "preprocessing": {
+    "sfreq": 256.0,
+    "low_hz": 1.0,
+    "high_hz": 40.0,
+    "normalization": "zscore",
+    "order": 4,
+    "context_sec": 2.0
+  },
+  "training": {
+    "evaluation_scope": "patient-held-out",
+    "seed": 42,
+    "epochs_requested": 3,
+    "epochs_completed": 3,
+    "created_utc": "2026-10-13T19:21:33.415101+00:00",
+    "data_root": "C:\\Main\\Code\\eeg-seizure-detection\\data\\raw\\chbmit",
+    "records": [
+      {
+        "relative_path": "chb01/chb01_01.edf",
+        "patient": "chb01",
+        "edf_sha256": "92ec026f633dca94ee74c2e2b67cf9d58aa50da700b650a1696cf497dac073e3",
+        "summary_sha256": "77e86183845192d147c88a9bb4263c2b4a32e936c6236029770f86ca2ea023db",
+        "split": "train"
+      },
+      {
+        "relative_path": "chb01/chb01_03.edf",
+        "patient": "chb01",
+        "edf_sha256": "4c4a95a9b4331aeaadadd538763eb2e735950d9aa615b85ee6246c784be8ae90",
+        "summary_sha256": "77e86183845192d147c88a9bb4263c2b4a32e936c6236029770f86ca2ea023db",
+        "split": "train"
+      },
+      {
+        "relative_path": "chb01/chb01_04.edf",
+        "patient": "chb01",
+        "edf_sha256": "d91d190b2362697fe2cdef922a593baabadcb12fde437bd8d50c01b084ca9030",
+        "summary_sha256": "77e86183845192d147c88a9bb4263c2b4a32e936c6236029770f86ca2ea023db",
+        "split": "train"
+      },
+      {
+        "relative_path": "chb03/chb03_01.edf",
+        "patient": "chb03",
+        "edf_sha256": "74f1ebc1334c4d52a132513c8ecab03d15d5b8ecbd91c7fdc71346bf69797d02",
+        "summary_sha256": "8d74eb131a96959c7b2aec82215d232dc26c3012c4d98c2a1c5f5dac520f52b4",
+        "split": "train"
+      },
+      {
+        "relative_path": "chb03/chb03_02.edf",
+        "patient": "chb03",
+        "edf_sha256": "de8bdcd1f1edd0da5b56d97056ddee16b95d98f6a9ee1d5759342f3cae6b8d22",
+        "summary_sha256": "8d74eb131a96959c7b2aec82215d232dc26c3012c4d98c2a1c5f5dac520f52b4",
+        "split": "train"
+      },
+      {
+        "relative_path": "chb03/chb03_05.edf",
+        "patient": "chb03",
+        "edf_sha256": "6e400cf6457c5045d5783b188b9dd4362e267967f74d356f4f43923ccd7248ec",
+        "summary_sha256": "8d74eb131a96959c7b2aec82215d232dc26c3012c4d98c2a1c5f5dac520f52b4",
+        "split": "train"
+      },
+      {
+        "relative_path": "chb05/chb05_01.edf",
+        "patient": "chb05",
+        "edf_sha256": "8840c7d7b32becffdc2ae35eff4c6e222bf15a23c28b0367005e9ece355daf4c",
+        "summary_sha256": "6f8c1724c71aaee20523d138129c4f4366ed1f9bb7f220b146fc503661b6a3b4",
+        "split": "val"
+      },
+      {
+        "relative_path": "chb05/chb05_06.edf",
+        "patient": "chb05",
+        "edf_sha256": "8a15d8871289ff5947136c2bbd4482af9a9ac30d402efd3357993b064e86a2fd",
+        "summary_sha256": "6f8c1724c71aaee20523d138129c4f4366ed1f9bb7f220b146fc503661b6a3b4",
+        "split": "val"
+      },
+      {
+        "relative_path": "chb08/chb08_02.edf",
+        "patient": "chb08",
+        "edf_sha256": "f01c6435d6eed409cd25d3a590ee4d69b6c778adb48b9a7b50eae887ed50c9c7",
+        "summary_sha256": "d409ff3a74cb0b85310bd2f4428110e991d9e70969cf4ae8cc41de1671a3bd10",
+        "split": "test"
+      },
+      {
+        "relative_path": "chb08/chb08_03.edf",
+        "patient": "chb08",
+        "edf_sha256": "b8301e9e3f3cdf4b87547f8a08c0ac8650f52f79cf54d0434074a44ac09293fa",
+        "summary_sha256": "d409ff3a74cb0b85310bd2f4428110e991d9e70969cf4ae8cc41de1671a3bd10",
+        "split": "test"
+      }
+    ],
+    "split_window_counts": {
+      "train": 5400,
+      "val": 1802,
+      "test": 1800
+    },
+    "train_windows_used": 2447,
+    "class_counts_train": [
+      2400,
+      47
+    ],
+    "batch_size": 16,
+    "learning_rate": 0.0003,
+    "threads": 2,
+    "sampling": "balanced",
+    "loss": "bce",
+    "focal_gamma": null,
+    "steps_per_epoch": 60,
+    "early_stopping_patience": 2,
+    "class_counts_by_split": {
+      "train": [
+        5353,
+        47
+      ],
+      "val": [
+        1773,
+        29
+      ],
+      "test": [
+        1757,
+        43
+      ]
+    },
+    "dataset_manifest": "configs\\presentation_subset.json",
+    "label_policy": "complete non-overlapping windows; seizure union overlap >= 50%; partial tail discarded",
+    "threshold_selection": "exact-f1",
+    "max_validation_false_positive_rate": 0.05,
+    "selected_epoch": 1,
+    "stopping_reason": "validation early stopping",
+    "threshold_operating_point": {
+      "method": "exact validation F1; ties: fewer FP, higher threshold",
+      "validation_fpr_cap": 0.05,
+      "threshold": 0.5674257874488831,
+      "validation_f1": 0.34285714285714286,
+      "validation_recall": 0.20689655172413793,
+      "validation_precision": 1.0,
+      "validation_false_positives": 0,
+      "validation_false_positive_rate": 0.0
+    }
+  }
+}

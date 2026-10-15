@@ -1,0 +1,133 @@
+{
+  "mode": "saved-score audit; no new training",
+  "baseline_sha256": "4ad53ff2dac951a33f524f6d9969b921641edcea9936a5bc60f61da98648bdf1",
+  "validation_predictions_sha256": "a273e021b20233663605d5392593e885905d5ba417e3493cb91fa13d0e4c27a7",
+  "test_predictions_sha256": "b55a1c1e1461aff4c685f253d788410434bee0e51851d58f002f74b364d83fe6",
+  "threshold_selection": {
+    "method": "exact validation F1; ties: fewer FP, higher threshold",
+    "validation_fpr_cap": 0.05,
+    "threshold": 0.5302148461341858,
+    "validation_f1": 0.34285714285714286,
+    "validation_recall": 0.20689655172413793,
+    "validation_precision": 1.0,
+    "validation_false_positives": 0,
+    "validation_false_positive_rate": 0.0
+  },
+  "original_held_out": {
+    "accuracy": 0.9761111111111112,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "confusion_matrix": [
+      [
+        1757,
+        0
+      ],
+      [
+        43,
+        0
+      ]
+    ],
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 1757,
+    "false_negatives": 43,
+    "false_positive_rate": 0.0,
+    "roc_auc": 0.825482124657516,
+    "pr_auc": 0.1588139492094824,
+    "n_windows": 1800,
+    "positive_windows": 43,
+    "threshold": 0.5
+  },
+  "threshold_only_held_out": {
+    "accuracy": 0.9761111111111112,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "confusion_matrix": [
+      [
+        1757,
+        0
+      ],
+      [
+        43,
+        0
+      ]
+    ],
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 1757,
+    "false_negatives": 43,
+    "false_positive_rate": 0.0,
+    "roc_auc": 0.825482124657516,
+    "pr_auc": 0.1588139492094824,
+    "n_windows": 1800,
+    "positive_windows": 43,
+    "threshold": 0.5302148461341858
+  },
+  "score_distributions": {
+    "validation": [
+      {
+        "label": 0,
+        "windows": 1773,
+        "mean": 0.42280770171784576,
+        "median": 0.42652228474617,
+        "min": 0.2590529024600982,
+        "max": 0.5277765989303589,
+        "p10": 0.3717990279197692,
+        "p90": 0.46916183233261105
+      },
+      {
+        "label": 1,
+        "windows": 29,
+        "mean": 0.42099927725463077,
+        "median": 0.4075381755828857,
+        "min": 0.272320955991745,
+        "max": 0.5394014716148376,
+        "p10": 0.3409347474575043,
+        "p90": 0.5321983337402344
+      }
+    ],
+    "test": [
+      {
+        "label": 0,
+        "windows": 1757,
+        "mean": 0.3253556847419668,
+        "median": 0.3256422579288482,
+        "min": 0.1635053306818008,
+        "max": 0.4907812476158142,
+        "p10": 0.255673199892044,
+        "p90": 0.39616540074348444
+      },
+      {
+        "label": 1,
+        "windows": 43,
+        "mean": 0.3941255035095437,
+        "median": 0.4009235203266144,
+        "min": 0.2486727386713028,
+        "max": 0.4767111539840698,
+        "p10": 0.32441470623016355,
+        "p90": 0.45134199857711793
+      }
+    ]
+  },
+  "training_class_counts": [
+    2400,
+    47
+  ],
+  "original_ce_weights": [
+    0.5097916666666666,
+    26.03191489361702
+  ],
+  "expected_positive_free_random_batch_fraction": 0.7332234696020302,
+  "limitations": [
+    "Threshold-only audit reuses a previously examined test set; descriptive, not a fresh confirmatory test.",
+    "One validation patient/event and one test patient/event; windows are temporally correlated.",
+    "Weighted CE uses a batch-dependent weight denominator; all-negative batches still have full mean loss.",
+    "Per-window z-score is consistent in train/inference but removes absolute amplitude information."
+  ]
+}
